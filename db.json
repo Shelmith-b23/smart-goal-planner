@@ -1,0 +1,13 @@
+{
+  "goals": [
+    {
+      "id": "a90a",
+      "name": "Pen Stand",
+      "targetAmount": 7000,
+      "category": "Stationary",
+      "deadline": "2029-12-05",
+      "savedAmount": 500,
+      "createdAt": "2025-07-25"
+    }
+  ]
+}
