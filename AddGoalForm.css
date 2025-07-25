@@ -1,0 +1,38 @@
+.goal-form {
+  display: flex;
+  flex-wrap: wrap;              /* Allow wrapping if screen is small */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Keep input styling the same */
+.form-input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Keep button styling the same */
+.form-button {
+  padding: 10px 20px;
+  background-color: #e01373;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #5e3572;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+}
