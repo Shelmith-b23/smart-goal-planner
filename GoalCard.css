@@ -1,0 +1,70 @@
+.goal-card {
+  background-color: rgba(228, 231, 11, 0.9); /* white card with slight transparency */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 16px auto;
+  width: 90%;
+  max-width: 400px;
+  transition: transform 0.2s;
+  
+}
+
+.goal-card:hover {
+  transform: scale(1.02);
+}
+
+.goal-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #210b2c;
+  text-align: center;
+}
+
+.goal-info {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.goal-progress {
+  margin: 10px 0;
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.goal-progress-bar {
+  height: 100%;
+  background-color: #BC96E6;
+  transition: width 0.3s ease-in-out;
+}
+
+.goal-buttons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  
+}
+
+.goal-buttons button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #eea700;
+  color: #210b2c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.goal-buttons button:hover {
+  background-color: #fcbf49;
+}
